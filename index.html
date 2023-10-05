@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bbb64d0d19.js" crossorigin="anonymous"></script>
+    <title>Infest</title>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            Portfólio
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="#services">Meus Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+                <li><a href="#portfolioTitle">Eventos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div id="headerCta">
+            <h1>
+                Olá, somos <br>
+                a Infest!
+            </h1>
+            <p>
+                Nosso objetivo é contagiar experiências, <br>
+                momentos e bom som.
+            </p>
+            <a id="buttonCta" href="">Meus Serviços</a>
+        </div>
+        <div id="headerImg">
+            <img src="./img/logo.svg" alt="ERROR 99">
+        </div>
+    </div>
+    <div class="container" id="Clients">
+        <div id="headerClientText">
+            Alguns dos<br>
+            nossos parceiros:
+        </div>
+        <div class="headerLogo">
+            <a href="https://www.instagram.com/pandoohookah_/"><img src="./img/pandoo.svg" alt="ERROR 77"></a>
+        </div>
+        <div class="headerLogo">
+            <a href="https://www.instagram.com/pandoohookah_/"><img src="./img/pandoo.svg" alt="ERROR 77"></a>
+        </div>
+        <div class="headerLogo">
+            <a href="https://www.instagram.com/pandoohookah_/"><img src="./img/pandoo.svg" alt="ERROR 77"></a>
+        </div>
+    </div>
+    <div class="container">
+        <div id="services">
+            <h2 class="red">Conheça</h2>
+            <h1 class="black">Nossos Serviços</h1>
+            <p>
+                Vamos te proporcionar experiências <br>
+                únicas e inesquecíveis
+            </p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="textCenter">
+            <i id="security" class="fa-solid fa-shield-halved"></i>
+            <h1>Segurança</h1>
+            <p>
+             Investimos em profissionais capacitados para garantir <br>
+             a tranquilidade e bem-estar de todos os participantes.
+            </p>
+        </div>
+        <div class="textCenter">
+            <i id="bar" class="fa-solid fa-beer-mug-empty"></i>
+            <h1>Bar</h1>
+                <p>Oferecemos uma ampla variedade de bebidas em nossos <br>
+                eventos sempre presando pela qualidade e bom custo.</p>
+        </div>
+        <div class="textCenter">
+            <i id="music" class="fa-solid fa-music"></i>
+            <h1>Música</h1>
+            <p>
+                Oferecemos uma variedade de estilos e artistas para criar<br>
+                a atmosfera perfeita e garantir a diversão de todos.
+            </p>
+        </div>
+    </div>
+    <div class="container" id="contact" >
+        <div id="contactImg">
+            <img src="./img/halloween.svg" alt="ERROR 12">
+        </div>
+        <div id="contactForm">
+            <h2 class="red">Seja parceiro</h2>
+            <h1 class="black">Entre em contato</h1>
+            <p>
+                Digite aqui seu endereço de E-mail. Eu entrarei em <br>
+               contato para fornecer um orçamento gratuito
+            </p>
+            <form action="https://formspree.io/f/xknlppqr" method="post">
+                <input placeholder="Seu e-mail" type="text" name="contactEmail" required> <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <div class="container" id="portfolioTitle">
+        <div>
+        <h2 class="red">Conheça alguns de nossos</h2>
+        <h1 class="black">Eventos</h1>
+        </div>
+    </div>
+    <div id="carrossel">
+        <div id="arrowLeft" onclick="rollLeft()" class="setas">
+            <i class="fa-solid fa-circle-chevron-left"></i>
+        </div>
+        <div id="one" class="portfolioImg">
+            <img src="./img/one.svg" alt="ERROR 1">
+        </div>
+        <div id="two" class="portfolioImg">
+            <img src="./img/two.svg" alt="ERROR 2">
+        </div>
+        <div id="three" class="portfolioImg">
+            <img src="./img/three.svg" alt="ERROR 3">       
+        </div>
+        <div id="four" class="portfolioImg">
+            <img src="./img/four.svg" alt="ERROR 4">
+        </div>
+        <div id="arrowRight" onclick="rollRight()" class="setas">
+            <i class="fa-solid fa-circle-chevron-right"></i>
+        </div>
+    </div>
+    &copy;Gean Reis
+     <script src="index.js"></script>
+</body>
+</html>
